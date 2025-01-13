@@ -1,7 +1,7 @@
-**Library Management System API**
+**Library Management System API** <br>
 A Spring Boot-based RESTful API for managing library operations, including borrower registration, book cataloging, and borrowing/returning books. This project demonstrates the use of Spring Data JPA, MySQL, and other modern backend technologies to build a robust and scalable library management system.
 
-**Features**
+**Features** <br>
 Borrower Management: Register and manage library borrowers with validations for email and name.
 Book Management: Add, view, and manage books with details like ISBN, title, and author.
 Book Borrowing/Returning: Seamlessly borrow and return books while tracking their availability status.
@@ -9,14 +9,14 @@ RESTful API Design: Clean and intuitive endpoints for interacting with the libra
 Database Integration: Uses MySQL for persistent data storage with Spring Data JPA for simplified ORM.
 Validation: Ensures data integrity with field-level validations using Jakarta Bean Validation.
 
-**Technologies Used**
+**Technologies Used** <br>
 Java 17: Modern Java features for cleaner and efficient code.
 Spring Boot 3.x: Framework for rapid application development.
 Spring Data JPA: Simplified data access with robust repository patterns.
 MySQL: Reliable relational database for storing borrower and book information.
 Postman: Testing and interacting with the API.
 
-**Setup Instructions**
+**Setup Instructions** <br>
 Clone the repository.
 Configure your MySQL database in application.properties.
 Run the application using mvn spring-boot:run.
